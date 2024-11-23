@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #f3f3f3;
+    font-family: 'CabinetGrotesk-Bold', Arial, Helvetica, sans-serif;
+}
+
+.header__contents{
+    display: flex;
+}
+
+.header__link{
+    display: flex;
+    gap: 10px
+}
+
+.header__github{
+    /* background: url('../assets/githubLogo.png'); */
+    width: 60px;
+    border-radius: 50% 50%;
+}
+
+.header__github:hover{
+    background-color: white;
+    /* border-radius: 50% 50%; */
+    transform: scale(1.2);
+    transition-duration: 500ms;
+}
+
+.header__linkedin{
+    /* background: url('../assets/githubLogo.png'); */
+    width: 60px;
+    border-radius: 50% 50%;
+}
+
+.header__linkedin:hover{
+    background-color: white;
+    /* border-radius: 50% 50%; */
+    transform: scale(1.2);
+    transition-duration: 500ms;
+}
+
+.header__nav{
+    display: flex;
+}
+
+.header__nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-content{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.header__nav-link{
+    text-decoration: none;
+    color: #f3f3f3;
+}

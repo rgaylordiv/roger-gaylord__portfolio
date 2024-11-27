@@ -1,3 +1,30 @@
-.main__video{
-    background: transparent;
+.main{
+    font-family: 'CabinetGrotesk-Bold', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main__contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__text{
+    color: #f3f3f3;
+    font-size: 40px;
+}
+
+.main__text-span{
+    color: #17e717;
+    font-size: 40px;
+}
+
+.main__picture{
+    width: 200px;
+    border-radius: 10px;
+    border: solid 2px #000;
+    box-shadow: 3px 2px 5px #000;
 }

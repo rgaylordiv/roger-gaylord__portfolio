@@ -4,10 +4,15 @@ html,body{
 }
 
 body{
-  background: #999090;
+  background-color: #312b2b;
   background-size: cover;
   background-position: center;
+  /* background: url(../../assets/rohit-tandon-9wg5jCEPBsw-unsplash.jpg) fixed; */
   overflow: auto;
+}
+
+.app{
+  height: 100vh;
 }
 
 .app__wrapper {

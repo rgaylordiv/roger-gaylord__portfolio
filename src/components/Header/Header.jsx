@@ -8,10 +8,13 @@ export default function Header(){
             <div className='header__contents'>
                 <div className='header__link'>
                     <a className='header__logo' href='https://github.com/rgaylordiv' target='github'>
-                        <img className='header__github' src={githubLogo} alt='GitHub'/>
+                        {/* <img className='header__github' src={githubLogo} alt='GitHub'/> */}
+                        <img className='header__github' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+
                     </a>
                     <a className='header__logo' href='https://www.linkedin.com/in/roger-gaylord-iv-635279233/' target='linkedin'>
-                        <img className='header__linkedin' src={linkedinLogo} alt='Linkedin'/>
+                        {/* <img className='header__linkedin' src={linkedinLogo} alt='Linkedin'/> */}
+                        <img className='header__linkedin' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
                     </a>
                 </div>
             </div>

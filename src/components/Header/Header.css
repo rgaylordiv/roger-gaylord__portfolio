@@ -23,7 +23,7 @@
 }
 
 .header__github:hover{
-    background-color: white;
+    /* background-color: white; */
     /* border-radius: 50% 50%; */
     transform: scale(1.2);
     transition-duration: 500ms;
@@ -32,11 +32,11 @@
 .header__linkedin{
     /* background: url('../assets/githubLogo.png'); */
     width: 60px;
-    border-radius: 50% 50%;
+    /* border-radius: 50% 50%; */
 }
 
 .header__linkedin:hover{
-    background-color: white;
+    /* background-color: white; */
     /* border-radius: 50% 50%; */
     transform: scale(1.2);
     transition-duration: 500ms;
@@ -61,4 +61,8 @@
 .header__nav-link{
     text-decoration: none;
     color: #f3f3f3;
+}
+
+.header__nav-link:hover{
+    opacity: 0.6;
 }

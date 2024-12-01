@@ -25,14 +25,14 @@ export default function Header(){
                             <a className='header__nav-link' href='#about'>About Me</a>
                         </li>
                         <li>
-                            <a className='header__nav-link' href='#skills'>My Skills</a>
+                            <a className='header__nav-link' href='#skills'>Skills</a>
                         </li>
                         <li>
                             <a className='header__nav-link' href='#projects'>Projects</a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a className='header__nav-link' href='#contact'>Contact</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </nav>
             </div>

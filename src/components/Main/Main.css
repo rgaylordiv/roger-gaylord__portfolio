@@ -1,30 +1,112 @@
 .main{
     font-family: 'CabinetGrotesk-Bold', Arial, sans-serif;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     margin-top: 100px;
+    gap: 20px;
 }
 
 .main__contents{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+}
+
+.main__caption{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+    padding-left: 20px;
 }
 
 .main__text{
     color: #f3f3f3;
     font-size: 40px;
+    text-shadow: 1px 1px 1px #000;
+    margin: 0;
 }
 
 .main__text-span{
     color: #17e717;
     font-size: 40px;
+    margin: 0;
 }
 
-.main__picture{
+/* .main__picture{
+    display: flex;
     width: 200px;
     border-radius: 10px;
     border: solid 2px #000;
     box-shadow: 3px 2px 5px #000;
+} */
+
+@media screen and (max-width:1360px){
+    .main__caption{
+        width: 600px;
+    }
 }
+
+@media screen and (max-width:1138px){
+    .main__caption{
+        width: 550px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .main__text-span{
+        font-size: 30px;
+    }
+
+    .main__text{
+        font-size: 30px;
+    }
+
+    .main__caption{
+        width: 475px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .main__text{
+        font-size: 25px;
+    }
+
+    .main__text-span{
+        font-size: 25px;
+    }
+
+    .main__caption{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .main__text{
+        font-size: 20px;
+    }
+
+    .main__text-span{
+        font-size: 20px;
+    }
+
+    .main__caption{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .main__text{
+        font-size: 20px;
+    }
+
+    .main__text-span{
+        font-size: 20px;
+    }
+
+    .main__caption{
+        width: 250px;
+    }
+}
+    

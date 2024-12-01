@@ -1,18 +1,20 @@
 html,body{
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body{
-  background-color: #312b2b;
+  background-color: #000; /*#312b2b*/
   background-size: cover;
   background-position: center;
-  /* background: url(../../assets/rohit-tandon-9wg5jCEPBsw-unsplash.jpg) fixed; */
+  /* background: url('../../assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg') fixed; */
   overflow: auto;
 }
 
 .app{
   height: 100vh;
+  display: flex;
 }
 
 .app__wrapper {

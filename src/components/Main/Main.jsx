@@ -111,9 +111,6 @@ export default function Main() {
                 }}
             />
         </div>
-      {/* <div className="main__image">
-            <img src={rogerHeader} alt="Roger Gaylord" className="main__picture" />
-        </div> */}
     </main>
   );
 }

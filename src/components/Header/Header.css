@@ -1,14 +1,22 @@
-.header{
+.header {
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid 1px #f3f3f3;
+    justify-content: space-around; /* Center the contents horizontally */
+    align-items: center; /* Center the contents vertically */
+    position: fixed;
+    left: 0; /* Ensure the header starts at the left side */
+    right: 0; /* Ensure the header stretches to the right side */
+    width: 100%; /* Set width to 100% to span the full screen width */
+    padding: 10px; /* Simplify padding syntax */
     font-family: 'CabinetGrotesk-Bold', Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 40px;
+    z-index: 1000; /* Optional: Ensure the header stays on top */
 }
 
-.header__contents{
+.header__contents {
     display: flex;
+    justify-content: center; /* Center the contents inside .header__contents */
+    align-items: center; /* Vertically center the contents */
 }
 
 .header__link{
@@ -20,6 +28,8 @@
     /* background: url('../assets/githubLogo.png'); */
     width: 60px;
     border-radius: 50% 50%;
+    transform: scale(1);
+    transition-duration: 500ms;
 }
 
 .header__github:hover{
@@ -32,6 +42,8 @@
 .header__linkedin{
     /* background: url('../assets/githubLogo.png'); */
     width: 60px;
+    transform: scale(1);
+    transition-duration: 500ms;
     /* border-radius: 50% 50%; */
 }
 

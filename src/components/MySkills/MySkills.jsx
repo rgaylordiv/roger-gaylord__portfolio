@@ -5,7 +5,7 @@ export default function MySkills(){
     return(
         <section className='skill' id='skills'>
                 <div className='skill__header'>
-                    <h1 className='skill__title'>My Skills</h1>
+                    <h1 className='skill__title'>Langauges and Frameworks</h1>
                 </div>
                 <div className="skill__content">
                     <div className="skill__languages">
@@ -46,9 +46,9 @@ export default function MySkills(){
                         {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" className='skill__image'/> */}
                         {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" className='skill__image'/> */}
                     </div>
-                    <div className="skill__caption">
+                    {/* <div className="skill__caption">
                         <p className="skill__text">These are the languages I know and I will fill this out later</p>
-                    </div>
+                    </div> */}
                 </div>
         </section>
     )

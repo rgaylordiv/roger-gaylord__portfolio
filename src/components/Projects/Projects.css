@@ -45,6 +45,7 @@
     border-radius: 10px;
     transform: scale(1);
     transition-duration: 500ms;
+    /* width: 80px; */
 }
 
 .project__outgoing:hover{
@@ -66,8 +67,20 @@
     padding: 5px;
 }
 
-@media screen and (max-width: 502px) {
+@media screen and (max-width: 550px) {
     .project__content{
         width: 100%;
+    }
+
+    .project__title{
+        font-size: 18px;
+    }
+
+    .project__outgoing{
+        width: 40px;
+    }
+
+    .project__screenshot{
+        max-width: 200px;
     }
 }

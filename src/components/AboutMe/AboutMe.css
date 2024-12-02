@@ -68,12 +68,15 @@
 
 @media screen and (max-width: 550px) {
     .about-me__title{
-        font-size: 13px;
         padding-bottom: 0;
     }
 
+    .about-me__header{
+        font-size: 18px;
+    }
+
     .about-me__text{
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .about-me__picture{

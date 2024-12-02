@@ -1,0 +1,19 @@
+.footer{
+    font-family: 'CabinetGrotesk-Bold', Arial, Helvetica, sans-serif;
+    color: grey;
+    display: flex;
+}
+
+@media screen and (max-width: 1360px) {
+    .footer{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer{
+        justify-content: center;
+        margin: 0;
+        font-size: 13px;
+    }
+}

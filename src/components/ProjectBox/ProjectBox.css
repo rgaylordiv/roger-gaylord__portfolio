@@ -22,4 +22,15 @@
 .project-box__description{
     font-family: 'CabinetGrotesk-Regular', Arial, Helvetica, sans-serif;
     color: #f3f3f3;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 550px) {
+    .project-box__title{
+        font-size: 18px;
+    }
+
+    .project-box__description{
+        font-size: 13px;
+    }
 }

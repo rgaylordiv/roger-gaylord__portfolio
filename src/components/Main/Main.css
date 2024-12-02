@@ -98,11 +98,11 @@
 
 @media screen and (max-width:550px){
     .main__text{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .main__text-span{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .main__caption{
@@ -129,6 +129,18 @@
 @media screen and (max-width:320px){
     .main{
         padding: 20px 0 20px 0;
+    }
+
+    .main__contents{
+        width: 175px;
+    }
+
+    .main__text{
+        font-size: 13px;
+    }
+
+    .main__text-span{
+        font-size: 12px;
     }
 
 }

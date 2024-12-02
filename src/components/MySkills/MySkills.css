@@ -54,3 +54,13 @@
     transform: scale(1.2);
     transition-duration: 500ms;
 }
+
+@media screen and (max-width: 550px) {
+    .skill__title{
+        font-size: 18px;
+    }
+
+    .skill__image{
+        width: 60px;
+    }
+}

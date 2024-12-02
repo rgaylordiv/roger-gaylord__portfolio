@@ -65,3 +65,9 @@
     background-color: rgb(161, 103, 226, .6);
     padding: 5px;
 }
+
+@media screen and (max-width: 502px) {
+    .project__content{
+        width: 100%;
+    }
+}

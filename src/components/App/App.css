@@ -1,25 +1,35 @@
-html,body{
+html, body {
   height: 100%;
   margin: 0;
+  padding: 0; /* Ensures there is no extra padding */
   scroll-behavior: smooth;
+  width: 100%; /* Ensure the body takes the full width */
 }
 
-body{
-  background-color: #000; /*#312b2b*/
+body {
+  background-color: #000; /* #312b2b */
   background-size: cover;
   background-position: center;
-  /* background: url('../../assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg') fixed; */
   overflow: auto;
 }
 
-.app{
-  height: 100vh;
-  display: flex;
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Ensures consistent box-sizing for all elements */
+}
+
+.app {
+  width: 100%; /* Ensures the app stretches across the entire width */
+  max-width: 1360px; /* Limits the width on large screens */
+  margin: 0 auto; /* Centers the app */
 }
 
 .app__wrapper {
   display: flex;
   flex-direction: column;
+  width: 100%; /* Ensures the wrapper takes full width */
+  max-width: 1360px; /* Limits the wrapper's width */
   margin: 0 auto;
-  max-width: 1360px;
 }
+

@@ -94,3 +94,10 @@
     }
     
 }
+
+@media screen and (max-width: 325px) {
+    .header__nav-link{
+        font-size: 11px;
+    }
+    
+}

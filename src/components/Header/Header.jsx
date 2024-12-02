@@ -1,6 +1,7 @@
 import './Header.css';
 import githubLogo from '../../assets/githubLogo.png';
 import linkedinLogo from '../../assets/linkedinLogo.png';
+import resume from '../../assets/Roger-Gaylord-Resume.pdf';
 
 export default function Header(){
     return(
@@ -29,6 +30,9 @@ export default function Header(){
                         </li>
                         <li>
                             <a className='header__nav-link' href='#projects'>Projects</a>
+                        </li>
+                        <li>
+                            <a className='header__nav-link' href={resume} download="Roger-Gaylord-Resume.pdf" target='_blank'>Resume</a>
                         </li>
                         {/* <li>
                             <a className='header__nav-link' href='#contact'>Contact</a>

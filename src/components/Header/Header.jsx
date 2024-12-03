@@ -1,7 +1,7 @@
 import './Header.css';
 import githubLogo from '../../assets/githubLogo.png';
 import linkedinLogo from '../../assets/linkedinLogo.png';
-import resume from '../../assets/rogerResume.jpg';
+import resume from '../../assets/rgivresume.jpg';
 
 export default function Header(){
     return(

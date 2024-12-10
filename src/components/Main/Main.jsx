@@ -57,7 +57,7 @@ export default function Main() {
             My Name Is Roger Gaylord.
           </p>
           <p className="main__text-span">
-            <Typewriter words={['Full Stack Developer', 'Experienced Account Manager', 'Software Engineer', 'Team Player']} loop={0} cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} cursorBlinking/>
+            <Typewriter words={['Full Stack Developer', 'Experienced Account Manager', 'Software Engineer', 'Web Consultant', 'Rock Climber', 'Gamer']} loop={0} cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} cursorBlinking/>
             </p>
         </div>
       </div>
